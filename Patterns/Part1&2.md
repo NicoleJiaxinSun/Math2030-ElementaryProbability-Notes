@@ -40,3 +40,30 @@ Disjoint (Mutually Exclusive):  P(A ∩ B) = 0
 Independent:  P(A ∩ B) = P(A)P(B)
 
 Two nontrivial events cannot be both independent and disjoint.
+
+# Block Method 
+
+Use when: A group of objects must be treated as a single unit.
+
+Formula: block arrangements × internal arrangements
+
+Example: 9 people in line. 3 specific people do not want to stand together.
+
+Total:  9!
+
+Unwanted: Treat the 3 people as one block.
+
+Now there are 7 units total:
+
+- 1 block
+- 6 other people
+
+Block arrangements: 7!
+
+Internal arrangements: 3!
+
+Answer: 9! − 7! × 3!
+
+Key idea:
+
+If a group must be together, treat the group as one object first, then multiply by the arrangements inside the group.
