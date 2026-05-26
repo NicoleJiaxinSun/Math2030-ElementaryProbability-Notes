@@ -45,25 +45,20 @@ Two nontrivial events cannot be both independent and disjoint.
 
 Use when: A group of objects must be treated as a single unit.
 
-Formula: block arrangements × internal arrangements
+### Example: 
 
-Example: 9 people in line. 3 specific people do not want to stand together.
+9 people in line. 3 specific people do not want to stand together.
 
-Total:  9!
+- Unwanted: Treat the 3 people as one block.
 
-Unwanted: Treat the 3 people as one block.
+- Now there are 7 units total:  1 block + 6 other people
+  
+### Formula: 
 
-Now there are 7 units total:
+**block arrangements × internal arrangements**
 
-- 1 block
-- 6 other people
-
-Block arrangements: 7!
-
-Internal arrangements: 3!
+7! x 3!
 
 Answer: 9! − 7! × 3!
 
-Key idea:
-
-If a group must be together, treat the group as one object first, then multiply by the arrangements inside the group.
+Key idea: If a group must be together, treat the group as one object first, then multiply by the arrangements inside the group.
