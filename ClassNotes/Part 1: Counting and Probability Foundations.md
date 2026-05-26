@@ -132,13 +132,9 @@ Use when:
 
 Examples:
 
-TORONTO
+TORONTO = 7! / (2!2!2!)
 
-= 7! / (2!2!2!)
-
-MISSISSIPPI
-
-= 11! / (4!4!2!)
+MISSISSIPPI = 11! / (4!4!2!)
 
 Recognition:
 
@@ -153,9 +149,7 @@ Recognition:
 
 Formula:
 
-C(n₁,r₁) · C(n₂,r₂)
--------------------
-      C(N,r)
+[C(n₁,r₁) · C(n₂,r₂)] /   C(N,r)
 
 Where:
 
@@ -183,37 +177,7 @@ See:
 
 → Hypergeometric
 
----
 
-# Problem Recognition Guide
-
-Need to count outcomes?
-
-→ Counting Techniques
-
-Order matters?
-
-→ Permutation
-
-Order doesn't matter?
-
-→ Combination
-
-Repeated objects?
-
-→ Multinomial
-
-Sampling without replacement?
-
-→ Hypergeometric
-
-Need probability of A or B?
-
-→ Union Rule
-
-Need all possible outcomes?
-
-→ Sample Space
 
 ---
 
