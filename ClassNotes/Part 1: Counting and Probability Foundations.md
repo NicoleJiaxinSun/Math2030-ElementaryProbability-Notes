@@ -30,13 +30,7 @@ Use when:
 
 Formula:
 
-P(A ∪ B ∪ C)
-
-= P(A) + P(B) + P(C)
-
-− P(A ∩ B) − P(A ∩ C) − P(B ∩ C)
-
-+ P(A ∩ B ∩ C)
+P(A ∪ B ∪ C) = P(A) + P(B) + P(C) − P(A ∩ B) − P(A ∩ C) − P(B ∩ C) + P(A ∩ B ∩ C)
 
 Idea:
 - Add individual probabilities.
@@ -84,8 +78,6 @@ Examples:
 
 Recognition:
 
-Ask:
-
 "Would swapping two objects create a different outcome?"
 
 If YES → Permutation
@@ -107,8 +99,6 @@ Examples:
 - Selecting students
 
 Recognition:
-
-Ask:
 
 "Would swapping two objects create the same outcome?"
 
