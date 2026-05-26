@@ -29,12 +29,10 @@ Recognition: Need the probability of "A and B".
 Definition: Knowing one event occurs does not change the probability of the other.
 
 Key Property: P(A ∩ B) = P(A)P(B)
+- To prove Independence/Dependence
 
 Equivalent: P(A|B) = P(A)
 
-Equivalent: P(B|A) = P(B)
-
-Recognition: Information about one event has no effect on the other.
 
 ---
 
@@ -43,6 +41,7 @@ Recognition: Information about one event has no effect on the other.
 Definition: Knowing one event occurs changes the probability of the other.
 
 Key Property: P(A ∩ B) = P(A)P(B|A)
+- To prove Independence/Dependence
 
 Recognition: Events influence each other.
 
@@ -65,11 +64,6 @@ Idea: Break the problem into cases and add the probabilities from each case.
 
 Recognition: Multiple groups can produce the same outcome.
 
-Examples:
-- Different technicians
-- Different factories
-- Different machines
-
 ---
 
 ## Bayes' Theorem
@@ -82,28 +76,7 @@ Idea: Update a prior belief after observing new information.
 
 Recognition: Find the probability of a cause after observing an effect.
 
-Examples:
-- Medical testing
-- Defective products
-- Technician repair problems
 
----
-
-## Bayes Workflow
-
-Step 1: Identify the event you want in the numerator.
-
-Step 2: Calculate P(B) using the Law of Total Probability if necessary.
-
-Step 3: Apply Bayes' Theorem.
-
-Common Pattern:
-
-Need: P(Cause | Evidence)
-
-Given: P(Evidence | Cause)
-
-→ Use Bayes.
 
 ---
 
@@ -125,15 +98,11 @@ Benefit: Makes conditional probability problems easier to visualize.
 
 Given another event? → Conditional Probability
 
-Need probability of "A and B"? → Multiplication Rule
-
 Need P(B)? → Law of Total Probability
 
 Need reverse conditional probability? → Bayes' Theorem
 
-Events do not affect each other? → Independence
-
-Events affect each other? → Dependence
+Events do/do not affect each other? → Independence / Dependence
 
 Multiple stages? → Tree Diagram
 
