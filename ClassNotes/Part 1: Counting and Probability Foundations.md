@@ -1,0 +1,230 @@
+# Part 1: Counting and Probability Foundations
+
+## Sample Space
+
+Definition:
+
+Ω = set of all possible outcomes.
+
+Example:
+
+- Roll a die
+- Ω = {1, 2, 3, 4, 5, 6}
+
+---
+
+## Union Rule
+
+### Two Events
+
+Formula:
+
+P(A ∪ B) = P(A) + P(B) − P(A ∩ B)
+
+Use when:
+- Finding the probability of A or B occurring.
+
+---
+
+### Three Events
+
+Formula:
+
+P(A ∪ B ∪ C)
+
+= P(A) + P(B) + P(C)
+
+− P(A ∩ B) − P(A ∩ C) − P(B ∩ C)
+
++ P(A ∩ B ∩ C)
+
+Idea:
+- Add individual probabilities.
+- Subtract double-counted overlaps.
+- Add back the triple overlap.
+
+---
+
+# Counting Techniques
+
+## 1. Multiplication Principle
+
+Formula:
+
+n₁ × n₂ × ... × nₖ
+
+Use when:
+- A process happens in stages.
+- Each stage has a fixed number of choices.
+
+Example:
+
+- Outfit = 3 shirts × 2 pants
+- Total outcomes = 6
+
+---
+
+## 2. Permutation
+
+Formula:
+
+nPr = n! / (n − r)!
+
+Special Case:
+
+nPn = n!
+
+Use when:
+- Order matters.
+
+Examples:
+- Rankings
+- Seating arrangements
+- Password positions
+
+Recognition:
+
+Ask:
+
+"Would swapping two objects create a different outcome?"
+
+If YES → Permutation
+
+---
+
+## 3. Combination
+
+Formula:
+
+nCr = n! / [r!(n − r)!]
+
+Use when:
+- Order does not matter.
+
+Examples:
+- Committees
+- Teams
+- Selecting students
+
+Recognition:
+
+Ask:
+
+"Would swapping two objects create the same outcome?"
+
+If YES → Combination
+
+---
+
+## 4. Multinomial Coefficient
+
+Formula:
+
+n! / (n₁!n₂!...nₖ!)
+
+Constraint:
+
+n₁ + n₂ + ... + nₖ = n
+
+Use when:
+- Some objects repeat.
+- All objects are arranged.
+
+Examples:
+
+TORONTO
+
+= 7! / (2!2!2!)
+
+MISSISSIPPI
+
+= 11! / (4!4!2!)
+
+Recognition:
+
+- Repeated letters
+- Arrange all letters
+
+→ Multinomial
+
+---
+
+## 5. Hypergeometric Probability
+
+Formula:
+
+C(n₁,r₁) · C(n₂,r₂)
+-------------------
+      C(N,r)
+
+Where:
+
+N = n₁ + n₂
+
+r = r₁ + r₂
+
+Use when:
+
+- Sampling without replacement.
+- Population is finite.
+- Success / Failure categories exist.
+
+Examples:
+
+- Cards
+- Defective products
+- Survey sampling
+
+Recognition:
+
+See:
+
+"Without replacement"
+
+→ Hypergeometric
+
+---
+
+# Problem Recognition Guide
+
+Need to count outcomes?
+
+→ Counting Techniques
+
+Order matters?
+
+→ Permutation
+
+Order doesn't matter?
+
+→ Combination
+
+Repeated objects?
+
+→ Multinomial
+
+Sampling without replacement?
+
+→ Hypergeometric
+
+Need probability of A or B?
+
+→ Union Rule
+
+Need all possible outcomes?
+
+→ Sample Space
+
+---
+
+# Quick Reminders
+
+- Permutation = order matters.
+- Combination = order doesn't matter.
+- Multinomial = repeated objects.
+- Hypergeometric = without replacement.
+- Always identify the pattern before choosing a formula.
+
+Don't forget:
+
+0! = 1
