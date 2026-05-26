@@ -31,9 +31,7 @@ Since A and B are independent: P(A ∩ B) = P(A)P(B)
 
 Therefore:  P(A ∪ B) = P(A) + P(B) − P(A)P(B)
 
----
-
-Common Trap
+**Common Trap**
 
 Independent ≠ Disjoint
 
