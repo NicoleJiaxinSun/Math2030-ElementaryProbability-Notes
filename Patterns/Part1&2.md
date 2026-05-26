@@ -1,3 +1,30 @@
+# Hypergeometric Recognition
+
+**Signal:**
+- Without replacement
+- Finite population
+- Success / Failure categories
+
+Think:
+(favorable combinations) / (total combinations)
+
+**Example:**
+
+52 cards, 4 Aces. Draw 5 cards. Find P(exactly 2 Aces).
+
+Favorable: C(4,2) × C(48,3)
+
+Total: C(52,5)
+
+Answer:  [C(4,2) × C(48,3)] / C(52,5)
+
+**Formula:**
+
+[C(n₁,r₁) × C(n₂,r₂)] / C(N,r)
+
+where N = n₁ + n₂ and r = r₁ + r₂.
+
+
 # Bayes Workflow
 Need P(A|B) -> Find P(B) -> Total Probability -> Bayes Formula
 
