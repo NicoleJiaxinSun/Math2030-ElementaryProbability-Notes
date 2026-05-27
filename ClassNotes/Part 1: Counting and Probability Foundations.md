@@ -71,10 +71,6 @@ nPn = n!
 Use when:
 - Order matters.
 
-Examples:
-- Rankings
-- Seating arrangements
-- Password positions
 
 Recognition:
 
@@ -93,11 +89,6 @@ nCr = n! / [r!(n − r)!]
 Use when:
 - Order does not matter.
 
-Examples:
-- Committees
-- Teams
-- Selecting students
-
 Recognition:
 
 "Would swapping two objects create the same outcome?"
@@ -108,7 +99,7 @@ If YES → Combination
 
 ## 4. Multinomial Coefficient
 
-Formula:
+**Formula:**
 
 n! / (n₁!n₂!...nₖ!)
 
@@ -120,18 +111,17 @@ Use when:
 - Some objects repeat.
 - All objects are arranged.
 
-Examples:
+**Examples:**
 
 TORONTO = 7! / (2!2!2!)
 
 MISSISSIPPI = 11! / (4!4!2!)
 
-Recognition:
+**Signal:**
 
 - Repeated letters
 - Arrange all letters
 
-→ Multinomial
 
 ---
 
@@ -147,25 +137,10 @@ N = n₁ + n₂
 
 r = r₁ + r₂
 
-Use when:
+**Signal:**
 
 - Sampling without replacement.
-- Population is finite.
-- Success / Failure categories exist.
 
-Examples:
-
-- Cards
-- Defective products
-- Survey sampling
-
-Recognition:
-
-See:
-
-"Without replacement"
-
-→ Hypergeometric
 
 
 
