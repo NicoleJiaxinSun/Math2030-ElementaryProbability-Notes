@@ -12,6 +12,11 @@ Example:
 - Ω = {1, 2, 3, 4, 5, 6}
 
 ---
+## Complement Rule
+
+Formula: P(Aᶜ) = 1 − P(A)
+
+---
 
 ## Union Rule
 
