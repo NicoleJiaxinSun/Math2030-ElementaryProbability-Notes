@@ -130,7 +130,22 @@ MISSISSIPPI = 11! / (4!4!2!)
 
 ---
 
-## 5. Hypergeometric Probability
+## 5. With Replacement vs Without Replacement
+### With Replacement
+
+Properties:
+
+Events are independent.
+
+P(A ∩ B) = P(A)P(B)
+
+### Without Replacement
+
+Events are dependent.
+
+---
+
+## 6. Hypergeometric Probability
 
 Formula:
 
@@ -147,6 +162,24 @@ r = r₁ + r₂
 - Sampling without replacement.
 
 
+## 7. Circular Permutation
+
+Formula: (n − 1)!
+
+Use When: Objects are arranged around a circle.
+
+
+Idea:
+
+Rotations are considered the same arrangement.
+
+Example:
+
+Arrange 5 people around a round table.
+
+Number of arrangements:
+
+(5 − 1)! = 4!= 24
 
 
 ---
